@@ -1,0 +1,52 @@
+.card {
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 10px;
+  flex-grow: 1;
+  flex-basis: 400px;
+
+}
+
+.card img {
+    width: 150px;
+    height: 120px;
+    margin-right: 20px;
+    background-color: #292d3c;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 24px;
+  margin: 0 20px 20px 0;
+
+}
+
+.card h3 span {
+	font-family: 'Roboto', cursive;
+    font-weight: 100;
+    font-size: 16px;
+    float: right;
+    color: red;
+    padding-top: 7px;
+
+}
+
+.card p {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
