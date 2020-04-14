@@ -1,5 +1,5 @@
 .banner{
-	background-image: url(../../images/background.jpg);
+	background-image: url(../../images/bg.jpg);
 	color: white;
 	padding:150px 0px;
 	background-size:cover;
@@ -8,7 +8,7 @@
 
 
 .banner-with-flat-filter {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/background.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/bg.jpg');
 }
 
 .banner h1 {
